@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.img{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(image/image2.jpg);
+    width:100%;
+    min-height: 100vh;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    padding: 0px 100px;
+    position: relative;
+    background-image: linear-gradient(rgba(8, 0, 10, 0.5),rgba(15, 0, 0, 0.5));
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color:#fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    
+}
+nav ul{
+    float:right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    padding: 14px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 10px;
+}
+nav li a:hover {
+    color:#ff8c69;
+    transition: 0.5s;
+}
+.content img{
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    object-fit :cover;
+
+}
+.text h1{
+     font-size: 62px;
+    font-weight: bold;
+    text-align:center;
+    color:#fff;
+    letter-spacing: 1.5px;
+    margin-top:5% ;
+}
+.text p{
+    font-size: 28px;
+    font-weight:bold;
+    text-align:center;
+    color:#fff;
+    margin-top: 5%;
+    display: block;
+    font-style: italic;
+    line-height: 35px;
+    padding:20px;
+}
+.button{
+    color:#fff;
+    left:40%;
+    margin-top: 6%;
+    font-size: 22px;
+    background: transparent;
+    border: 2px solid #fff;
+    text-decoration: none;
+    position: relative;
+    cursor:pointer;
+    padding: 10px 34px;
+}
+.button:hover{
+    color:#fff;
+    background-color: #e83f0b;
+    border:2px solid #e83f0b;
+
+}
+/*---------- Course ------------*/
+.course{
+    text-align: center;
+    padding-top:100px ;
+}
+.course h1{
+    font-size: 36px;
+}
+p{
+    color: #777;
+    font-size: 16px;
+    line-height:22px ;
+    padding:10px;
+    margin-top: 1%;
+}
+.row1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 20%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    color:#3c3a3a;
+    transition: 0.5s;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+}
+.course h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/*------------- campus -----------------*/
+.campus h1{
+    padding-top: 5%;
+    font-size: 36px;
+    text-align: center;
+}
+.campus p{
+    text-align: center;
+}
+.campaus-col{
+    padding:30px 2px;
+}
+.campaus-col img{
+    width: 100%; 
+}
+.campaus-col h2{
+    text-align: left;
+}
+.campaus-col p{
+    padding:15px 0 25px;
+}
+.btn{
+    font-size: 16px;
+    border:1px solid #f44336;
+    background: transparent;
+    color:#f44336;
+}
+/*------------- Blog  -----------------*/
+.blog h1{
+    padding-top: 5%;
+    font-size: 36px;
+    text-align: center;
+}
+.blog p{
+    text-align: center;
+    color:#3c3a3a;
+    font-size: 16px;
+}
+.blog-col{
+    flex-basis: 30%;
+    border-radius: 10px;
+    text-align: left;
+    background:#f4c5c5 ;
+    padding: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.blog-col img{
+    height:40px;
+    margin-left:5px;
+    margin-right:30px;
+    border-radius:50%                                                                                                                              
+}
+.blog-col p{
+    text-align: left;
+}
+.blog- h3{
+    margin-top:15px;
+    text-align:left;
+}
+.blog-col:hover{
+    box-shadow: 0 0 20px 0px rgba(214, 42, 42, 0.2);
+}
+.contact{
+    margin:100px auto;
+    width:80%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(image/OIP\ \(2\).webp);
+    background-position:center;
+    background-size:cover;
+    border-radius:10px;
+    text-align:center;
+    padding:100px 0;
+}
+.contact h1{
+    color:#fff;
+}
+.b{
+   color:#fff;
+   text-decoration: none;
+   padding: 4px 20px;
+   margin-top: 100%;
+   border: 1px solid #fff;
+}
+.b:hover{
+   background-color:#f44336;
+   border: 1px solid #f44336;
+}
+.contact p{
+    color:#fff;  
+}
+/*---------- Footer --------------*/
+.footer{
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+}
+.footer img{
+    width:20px;
+    border-radius:15px;
+    margin-left:5px;
+    margin-right:5px;
+    cursor:pointer;
+}
+/*---------- About us --------------*/
+.img1{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("image/eduspring.jpg");
+    width:100%;
+    min-height: 60vh;  
+}
+.img1 h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+}
+.img1 p{
+    color:#fff;   
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 25px;
+}
+.aboutUs{
+    background-color: #f4dada;
+    margin-top: 0%;
+}
+.aboutUs h2{
+    text-align: center;
+    margin-top: 5%;
+}
+.aboutUs li{
+    padding-left: 10px;
+}
+.about-col img{
+    width:100%;
+    margin-top: 8%;
+    margin-right: 5%;
+    max-height: 90vh;
+}
+/*---------- Course Page --------------*/
+.courses-col ul{
+    text-align: center;
+    line-height: 30px;
+}
+/*----------  Facility Page  --------------*/
+.facility-col{
+    flex-basis: 40%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: left;
+}
+.facility-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facility-col h3{
+    margin-top: 2%;
+}
+.map img{
+    width:60%;
+    margin-left: 20%;
+    margin-top: 7%;
+}
+/*------------- Conatct -----------*/
+.contactInfo{
+    width:80%;
+    margin: auto;
+}
+.contact-col {
+    margin-top: 5%;
+}
+.contact-col p{
+    font-size: 14px;
+}
+.contact-col h5{
+    font-size: 18px;
+    color:#555;
+}
+.contact-col img{
+    margin: 10px;   
+}
+.contact-col input, .contact-col textarea{
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-left: 30%;
+}
+.contact-col button{
+    margin-left: 20%;
+    margin-top: 4%;
+    font-size: 18px;
+    padding: 10px;
+    color:#fff;
+    background-color: #888584;
+    margin-bottom: 10%;
+}
